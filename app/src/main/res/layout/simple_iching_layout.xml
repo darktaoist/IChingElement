@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/title_iching">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/top"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="0dip" android:layout_gravity="fill_vertical"
+	android:layout_weight="1">
+		<!-- <TextView
+		android:layout_width="fill_parent"		
+		android:layout_height="fill_parent"
+		style="@style/title_style"
+		android:gravity="center"
+		android:text="@string/menuStr1" /> -->
+	</LinearLayout> 
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/middle" android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="0dip" 
+	android:layout_weight="8"> 
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="0dip" 
+		android:layout_weight="3"	>
+			<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:layout_width="fill_parent"
+			    android:gravity="center"
+			    android:layout_gravity="center"
+			    android:layout_height="fill_parent" >
+				<ImageView android:id="@+id/img" 
+				android:layout_width="160dip"
+				android:gravity="center"
+			    android:layout_gravity="center" 
+				android:layout_height="160dip" />
+				<ImageButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"	
+				android:id="@+id/image_button" 
+				android:gravity="center"
+			    android:layout_gravity="center"
+			    android:background="#00000000"
+				android:src="@drawable/iching_again_on"/>
+			</FrameLayout>
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1" >
+			 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical" 
+				android:layout_width="0dip"
+				android:layout_height="fill_parent" 
+				android:layout_weight="9"
+				android:background="@drawable/pannel">
+				
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" >
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/six" android:layout_weight="1"
+				android:layout_width="154px" android:layout_gravity="bottom"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/five" android:layout_weight="1"
+				android:layout_gravity="bottom" android:layout_width="wrap_content"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/four" android:layout_weight="1"
+				android:layout_gravity="bottom" android:layout_width="154px"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" >
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/three" android:layout_weight="1"
+				android:layout_gravity="center_horizontal" android:layout_width="154px"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/two" android:layout_weight="1"
+				android:layout_gravity="center_horizontal" android:layout_width="154px"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" android:gravity="center_vertical" >
+					<ImageView android:id="@+id/one" android:layout_weight="1"
+				android:layout_gravity="center_horizontal" android:layout_width="154px"
+				android:layout_height="7px" android:scaleType="center" android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" >
+				</LinearLayout>
+			</LinearLayout>
+			 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical" 
+				android:layout_width="0dip"
+				android:layout_height="fill_parent" 
+				android:layout_weight="1"/>
+
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical" 
+				android:layout_width="0dip"
+				android:layout_height="fill_parent" android:layout_weight="9"	
+				android:background="@drawable/pannel">
+				
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:gravity="center_horizontal"
+					android:layout_height="0dip" android:layout_weight="1" >
+				</LinearLayout>
+				<TextView
+	        		android:id="@+id/TextViewTmp"
+	        		android:visibility="gone"
+	        		android:layout_width="wrap_content"
+	        		android:layout_height="0dip" />
+				<TextView
+	        		android:id="@+id/TextView03"
+	        		style="@style/mandatory_text_field_style"
+	        		android:layout_gravity="center_horizontal"
+	        		android:layout_width="wrap_content"
+	        		android:layout_weight="2" 
+	        		android:layout_height="0dip" />
+        		<TextView
+	        		android:id="@+id/TextView04"
+	        		style="@style/optional_text_field_style"
+	        		android:layout_gravity="center_horizontal"
+	        		android:layout_width="wrap_content"
+	        		android:layout_weight="2" 
+	        		android:layout_height="0dip" />
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="0dip" android:layout_weight="1" >
+				</LinearLayout>			
+			</LinearLayout> 
+		</LinearLayout> 
+	</LinearLayout> 
+	
+	<include layout="@layout/bellow_buttons" />
+	
+</LinearLayout>  

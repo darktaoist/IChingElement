@@ -1,0 +1,227 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* imsi\
+* imsi\assets\
+* imsi\assets\12gi-to-01.htm
+* imsi\assets\12gi-to-02.htm
+* imsi\assets\12gi-to-03.htm
+* imsi\assets\12gi-to-04.htm
+* imsi\assets\12gi-to-05.htm
+* imsi\assets\12gi-to-06.htm
+* imsi\assets\12gi-to-07.htm
+* imsi\assets\12gi-to-08.htm
+* imsi\assets\12gi-to-09.htm
+* imsi\assets\12gi-to-10.htm
+* imsi\assets\12gi-to-11.htm
+* imsi\assets\12gi-to-12.htm
+* imsi\assets\12gi-today-000.htm
+* imsi\assets\12gi-today-001.htm
+* imsi\assets\12gi-today-002.htm
+* imsi\assets\12gi-today-003.htm
+* imsi\assets\12gi-today-004.htm
+* imsi\assets\12gi-today-005.htm
+* imsi\assets\12gi-today-006.htm
+* imsi\assets\12gi-today-007.htm
+* imsi\assets\12gi-today-008.htm
+* imsi\assets\12gi-today-009.htm
+* imsi\assets\12gi-today-010.htm
+* imsi\assets\12gi-today-011.htm
+* imsi\assets\12gi-today-012.htm
+* imsi\assets\12gi-today-013.htm
+* imsi\assets\12gi-today-014.htm
+* imsi\assets\12gi-today-015.htm
+* imsi\assets\12gi-today-016.htm
+* imsi\assets\12gi-today-017.htm
+* imsi\assets\12gi-today-018.htm
+* imsi\assets\12gi-today-019.htm
+* imsi\assets\12gi-today-020.htm
+* imsi\assets\12gi-today-021.htm
+* imsi\assets\12gi-today-022.htm
+* imsi\assets\12gi-today-023.htm
+* imsi\assets\12gi-today-024.htm
+* imsi\assets\12gi-today-025.htm
+* imsi\assets\12gi-today-026.htm
+* imsi\assets\12gi-today-027.htm
+* imsi\assets\12gi-today-028.htm
+* imsi\assets\12gi-today-029.htm
+* imsi\assets\12gi-today-030.htm
+* imsi\assets\12gi-today-031.htm
+* imsi\assets\12gi-today-032.htm
+* imsi\assets\12gi-today-033.htm
+* imsi\assets\12gi-today-034.htm
+* imsi\assets\12gi-today-035.htm
+* imsi\assets\12gi-today-036.htm
+* imsi\assets\12gi-today-037.htm
+* imsi\assets\12gi-today-038.htm
+* imsi\assets\12gi-today-039.htm
+* imsi\assets\12gi-today-040.htm
+* imsi\assets\12gi-today-041.htm
+* imsi\assets\12gi-today-042.htm
+* imsi\assets\12gi-today-043.htm
+* imsi\assets\12gi-today-044.htm
+* imsi\assets\12gi-today-045.htm
+* imsi\assets\12gi-today-046.htm
+* imsi\assets\12gi-today-047.htm
+* imsi\assets\12gi-today-048.htm
+* imsi\assets\12gi-today-049.htm
+* imsi\assets\12gi-today-050.htm
+* imsi\assets\12gi-today-051.htm
+* imsi\assets\12gi-today-052.htm
+* imsi\assets\12gi-today-053.htm
+* imsi\assets\12gi-today-054.htm
+* imsi\assets\12gi-today-055.htm
+* imsi\assets\12gi-today-056.htm
+* imsi\assets\12gi-today-057.htm
+* imsi\assets\12gi-today-058.htm
+* imsi\assets\12gi-today-059.htm
+* imsi\assets\12gi-today-060.htm
+* imsi\assets\12gi-today-061.htm
+* imsi\assets\12gi-today-062.htm
+* imsi\assets\12gi-today-063.htm
+* imsi\assets\12gi-today-064.htm
+* imsi\assets\12gi-today-065.htm
+* imsi\assets\12gi-today-066.htm
+* imsi\assets\12gi-today-067.htm
+* imsi\assets\12gi-today-068.htm
+* imsi\assets\12gi-today-069.htm
+* imsi\assets\12gi-today-070.htm
+* imsi\assets\12gi-today-071.htm
+* imsi\assets\12gi-today-072.htm
+* imsi\assets\12gi-today-073.htm
+* imsi\assets\12gi-today-074.htm
+* imsi\assets\12gi-today-075.htm
+* imsi\assets\12gi-today-076.htm
+* imsi\assets\12gi-today-077.htm
+* imsi\assets\12gi-today-078.htm
+* imsi\assets\12gi-today-079.htm
+* imsi\assets\12gi-today-080.htm
+* imsi\assets\12gi-today-081.htm
+* imsi\assets\12gi-today-082.htm
+* imsi\assets\12gi-today-083.htm
+* imsi\assets\12gi-today-084.htm
+* imsi\assets\12gi-today-085.htm
+* imsi\assets\12gi-today-086.htm
+* imsi\assets\12gi-today-087.htm
+* imsi\assets\12gi-today-088.htm
+* imsi\assets\12gi-today-089.htm
+* imsi\assets\12gi-today-090.htm
+* imsi\assets\12gi-today-091.htm
+* imsi\assets\12gi-today-092.htm
+* imsi\assets\12gi-today-093.htm
+* imsi\assets\12gi-today-094.htm
+* imsi\assets\12gi-today-095.htm
+* imsi\assets\12gi-today-096.htm
+* imsi\assets\12gi-today-097.htm
+* imsi\assets\12gi-today-098.htm
+* imsi\assets\12gi-today-099.htm
+* imsi\assets\clear.gif
+* imsi\assets\dummy_pe.gif
+* imsi\assets\ic_all.gif
+* imsi\assets\ic_love.gif
+* imsi\assets\ic_love_b.gif
+* imsi\assets\ic_money.gif
+* imsi\assets\ic_money_b.gif
+* imsi\assets\ic_work.gif
+* imsi\assets\ic_work_b.gif
+* imsi\assets\iching\
+* imsi\assets\iching\data1.htm
+* imsi\assets\iching\data10.htm
+* imsi\assets\iching\data11.htm
+* imsi\assets\iching\data12.htm
+* imsi\assets\iching\data13.htm
+* imsi\assets\iching\data14.htm
+* imsi\assets\iching\data15.htm
+* imsi\assets\iching\data16.htm
+* imsi\assets\iching\data17.htm
+* imsi\assets\iching\data18.htm
+* imsi\assets\iching\data19.htm
+* imsi\assets\iching\data2.htm
+* imsi\assets\iching\data20.htm
+* imsi\assets\iching\data21.htm
+* imsi\assets\iching\data22.htm
+* imsi\assets\iching\data23.htm
+* imsi\assets\iching\data24.htm
+* imsi\assets\iching\data25.htm
+* imsi\assets\iching\data26.htm
+* imsi\assets\iching\data27.htm
+* imsi\assets\iching\data28.htm
+* imsi\assets\iching\data29.htm
+* imsi\assets\iching\data3.htm
+* imsi\assets\iching\data30.htm
+* imsi\assets\iching\data31.htm
+* imsi\assets\iching\data32.htm
+* imsi\assets\iching\data33.htm
+* imsi\assets\iching\data34.htm
+* imsi\assets\iching\data35.htm
+* imsi\assets\iching\data36.htm
+* imsi\assets\iching\data37.htm
+* imsi\assets\iching\data38.htm
+* imsi\assets\iching\data39.htm
+* imsi\assets\iching\data4.htm
+* imsi\assets\iching\data40.htm
+* imsi\assets\iching\data41.htm
+* imsi\assets\iching\data42.htm
+* imsi\assets\iching\data43.htm
+* imsi\assets\iching\data44.htm
+* imsi\assets\iching\data45.htm
+* imsi\assets\iching\data46.htm
+* imsi\assets\iching\data47.htm
+* imsi\assets\iching\data48.htm
+* imsi\assets\iching\data49.htm
+* imsi\assets\iching\data5.htm
+* imsi\assets\iching\data50.htm
+* imsi\assets\iching\data51.htm
+* imsi\assets\iching\data52.htm
+* imsi\assets\iching\data53.htm
+* imsi\assets\iching\data54.htm
+* imsi\assets\iching\data55.htm
+* imsi\assets\iching\data56.htm
+* imsi\assets\iching\data57.htm
+* imsi\assets\iching\data58.htm
+* imsi\assets\iching\data59.htm
+* imsi\assets\iching\data6.htm
+* imsi\assets\iching\data60.htm
+* imsi\assets\iching\data61.htm
+* imsi\assets\iching\data62.htm
+* imsi\assets\iching\data63.htm
+* imsi\assets\iching\data64.htm
+* imsi\assets\iching\data7.htm
+* imsi\assets\iching\data8.htm
+* imsi\assets\iching\data9.htm
+* imsi\assets\iching\ichingStyle.css
+* imsi\assets\img1.gif
+* imsi\assets\main_background.png
+* imsi\주역이야기상.hwp
+* imsi\주역이야기하.hwp
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="menuStr">
+		<item>간단 주역점</item>
+		<item>상세 주역점</item>
+		<item>오늘의 운세</item>
+		<item>이력조회</item>
+		<item>서비스안내</item>
+	</string-array>
+</resources>

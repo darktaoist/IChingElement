@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="0dip" android:orientation="vertical"
+	android:background="@drawable/main_background">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/top" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="0dip"
+		android:layout_gravity="fill_vertical" android:layout_weight="1">
+		<TextView
+		android:id="@+id/chemistryFortuneResultTitle"
+		android:layout_width="fill_parent"		
+		android:layout_height="fill_parent"
+		style="@style/title_style"
+		android:gravity="center"
+		android:text="@string/menuStr6" />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="3" 
+		android:id="@+id/middle"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_height="0dip">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="3" 
+			android:id="@+id/middle"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:gravity="center"
+			android:layout_height="0dip">			
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/selectedTi" 
+				android:background="#00000000"
+				android:layout_gravity="center_horizontal"			
+				android:src="@drawable/tiger"/>		
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/selectedTi2" 
+				android:background="#00000000"
+				android:layout_gravity="center_horizontal"			
+				/>		
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="3" 
+			android:id="@+id/middle"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:gravity="center"
+			android:layout_height="0dip">			
+				<ImageButton android:id="@+id/harmonry_confirm"
+								android:text="@string/iching_hist_list_confirm"
+								android:layout_width="wrap_content"
+								android:layout_marginLeft="10px"
+								android:layout_height="wrap_content" 
+								android:background="#00000000"
+								android:src="@drawable/button_confirm"/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_weight="5" 
+				  android:layout_height="0dip">
+		<!-- ScrollView android:id="@+id/chatview" 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent">				  
+			<ListView android:id="@android:id/list"
+					  android:layout_width="fill_parent"
+					  android:layout_height="fill_parent"/>
+		</ScrollView-->
+			<ListView android:id="@android:id/list"
+					  android:layout_width="fill_parent"
+					  android:layout_height="wrap_content"/>		
+	</LinearLayout>		
+	<include layout="@layout/bellow_buttons" />
+</LinearLayout>

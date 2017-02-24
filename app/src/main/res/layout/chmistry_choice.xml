@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="6dip" android:orientation="vertical"
+	android:background="@drawable/title_dayfortune">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/top" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="0dip"
+		android:layout_gravity="fill_vertical" android:layout_weight="1">
+		<!-- <TextView
+		android:layout_width="fill_parent"		
+		android:layout_height="fill_parent"
+		style="@style/title_style" 
+		android:gravity="center"
+		android:text="@string/menuStr6" /> -->
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="8" android:id="@+id/middle"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="0dip">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1" android:id="@+id/middle"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		 android:layout_height="0dip" >
+			<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/mouse" android:layout_weight="1" android:background="#00000000" android:src="@drawable/mouse"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/cow" android:layout_weight="1" android:background="#00000000" android:src="@drawable/cow"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/tiger" android:layout_weight="1" android:background="#00000000" android:src="@drawable/tiger"/>
+			<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+						
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1" android:id="@+id/middle"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="0dip" >
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/rabbit" android:layout_weight="1" android:background="#00000000" android:src="@drawable/rabbit"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/dragon" android:layout_weight="1" android:background="#00000000" android:src="@drawable/dragon"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/snake" android:layout_weight="1" android:background="#00000000" android:src="@drawable/snake"/>
+			<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1" android:id="@+id/middle"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="0dip" >
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/horse" android:layout_weight="1" android:background="#00000000" android:src="@drawable/horse"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/lamb" android:layout_weight="1" android:background="#00000000" android:src="@drawable/lamb"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/monkey" android:layout_weight="1" android:background="#00000000" android:src="@drawable/monkey"/>
+			<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1" android:id="@+id/middle"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="0dip" >
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/chicken" android:layout_weight="1" android:background="#00000000" android:src="@drawable/chicken"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/dog" android:layout_weight="1" android:background="#00000000" android:src="@drawable/dog"/>
+			<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/pig" android:layout_weight="1" android:background="#00000000" android:src="@drawable/pig"/>
+			<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/simple_on_x" android:layout_weight="1" />
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+	<include layout="@layout/bellow_buttons" />
+</LinearLayout>

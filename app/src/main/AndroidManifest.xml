@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.naver.cafe.android"
+      android:versionName="1.1" android:versionCode="3">
+      
+      <supports-screens android:smallScreens="true"  
+                  android:normalScreens="true" 
+                  android:largeScreens="true" 
+                  android:anyDensity="true"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity android:name=".FortuneTellMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimpleFortuneTellResult" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".SimpleFortuneTell" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".IChingHistList" android:label="HIST_LIST" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".IChingHistEdit" android:label="HIST_VIEW" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name=".IChingHistView" android:label="HIST_EDIT" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.naver.cafe.android.dayfortune.DayFortuneMain" android:label="DayFortune" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.dayfortune.DayFortuneResult" android:label="DayFortuneResult" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.help.HelpMain" android:label="HelpMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.chemistry.ChemistryMain" android:label="ChemistryMain" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.chemistry.ChemistryChoice" android:label="ChemistryChoice" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.chemistry.ChemistrySub" android:label="ChemistrySub" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        <activity android:name="com.naver.cafe.android.chemistry.ChemistryResult" android:label="ChemistryResult" android:theme="@android:style/Theme.NoTitleBar" android:screenOrientation="portrait"/>
+        
+         
+    </application> 
+    <uses-permission 
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission
+		android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk android:minSdkVersion="14" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	 
+     <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+</manifest> 

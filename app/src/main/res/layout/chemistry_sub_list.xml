@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="1dip"
+    android:paddingBottom="1dip"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip">
+
+    <!-- ImageButton android:id="@+id/listTti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/-->
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/listTti"
+			android:background="#00000000" 
+			android:src="@drawable/tiger"/>
+    <TextView android:id="@+id/phone_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="6dip" />
+</LinearLayout>

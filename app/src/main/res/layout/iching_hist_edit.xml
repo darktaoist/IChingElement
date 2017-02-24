@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="fill_parent" android:background="@drawable/title_hist_save">
+ 
+ <include layout="@layout/upper_layer" />  
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/middle"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="0dip" 
+ android:layout_weight="8" 
+ >	 
+ 
+<ScrollView android:id="@+id/chatview" android:orientation="vertical"
+ android:layout_weight="8" 
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/middle"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="wrap_content" 
+ android:layout_weight="8"  >	 
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="1px"				  
+				  android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_title" />
+				  
+		<EditText android:id="@+id/iching_hist_list_title"
+				  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:background="@android:drawable/editbox_background"	
+				  android:layout_marginLeft="30px"
+				  android:layout_weight="1"/>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_ask" />
+
+		<EditText android:id="@+id/iching_hist_list_ask"
+				  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:background="@android:drawable/editbox_background"
+				  android:layout_marginLeft="30px"
+				  android:layout_weight="1"/>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_answer" />
+
+		<WebView android:id="@+id/iching_hist_list_answer"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:layout_weight="1"/>
+				  				  
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_result" />
+				  
+		<EditText android:id="@+id/iching_hist_list_result"
+				  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:lines="4"
+				  android:background="@android:drawable/editbox_background"
+				  android:layout_marginLeft="30px"
+				  android:layout_weight="6"/>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_ask_date" />
+		<LinearLayout android:orientation="horizontal"
+					  android:layout_width="fill_parent"
+					  android:layout_marginLeft="30px"
+					  android:layout_height="wrap_content">
+			<EditText android:id="@+id/iching_hist_list_ask_date"
+					  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:background="@android:drawable/editbox_background"
+					  />
+			<Button android:id="@+id/calendarBtn"
+					android:text="@string/iching_hist_list_ask_date"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>	
+	</LinearLayout>	
+	
+	<LinearLayout android:orientation="vertical"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:layout_height="wrap_content">				  
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  style="@style/simple_result_style"
+				  android:text="@string/iching_hist_list_accuracy" />
+	    <RatingBar android:id="@+id/iching_hist_list_accuracy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:numStars="5" 
+		    android:layout_marginLeft="30px"
+			android:rating="3" />
+	</LinearLayout>			
+	<LinearLayout android:orientation="horizontal"
+				  android:layout_width="fill_parent"
+				  android:layout_marginTop="5px"
+				  android:gravity="center_horizontal"
+				  android:layout_height="wrap_content">				  
+		<ImageButton android:id="@+id/iching_hist_list_confirm"
+				android:text="@string/iching_hist_list_confirm"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_height="wrap_content" 
+				android:background="#00000000"
+				android:src="@drawable/button_confirm"/>
+		<ImageButton android:id="@+id/iching_hist_list_cancle"
+				android:text="@string/iching_hist_list_cancle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:background="#00000000"
+				android:src="@drawable/button_cancel"/>	
+	</LinearLayout>		
+</LinearLayout>		
+</ScrollView>
+</LinearLayout>		
+
+<include layout="@layout/bellow_buttons" /> 
+</LinearLayout>  

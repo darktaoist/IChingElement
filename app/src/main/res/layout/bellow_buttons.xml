@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bottom"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="0dip" 
+	android:layout_weight="1" >
+	<ImageButton
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/btn6"
+				android:layout_weight="1"
+				android:background="#00000000"
+				android:src="@drawable/btn_06"></ImageButton>
+	<ImageButton
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/btn1"
+				android:layout_weight="1"
+				android:background="#00000000"
+				android:src="@drawable/btn_01"></ImageButton>
+	<ImageButton
+				android:layout_width="0dip" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/btn3"
+				android:layout_weight="1"
+				android:background="#00000000"
+				android:src="@drawable/btn_03"></ImageButton>
+	<ImageButton
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/btn4"
+			android:layout_weight="1"	
+			android:background="#00000000"
+				android:src="@drawable/btn_04"></ImageButton>
+	<ImageButton
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/btn5" 
+				android:layout_weight="1"
+				android:background="#00000000"
+				android:src="@drawable/btn_05"></ImageButton>												
+	</LinearLayout>
