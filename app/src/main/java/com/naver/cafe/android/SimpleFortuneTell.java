@@ -21,7 +21,7 @@ import android.widget.Toast;
 public class SimpleFortuneTell extends ShareActivity implements SensorListener {
 	
 	IChingElement iching = new IChingElement();
-	
+
 	boolean animationFlag = true;
 	boolean veryFirstFlag = true;
 	int currentHyo = 0;
@@ -103,7 +103,7 @@ public class SimpleFortuneTell extends ShareActivity implements SensorListener {
         
     private void showJumDialog(int num) {
 	    new AlertDialog.Builder(SimpleFortuneTell.this)
-		.setTitle("주역점 결과보기")
+		.setTitle("주역점 결과보기!")
 		.setMessage("간단결과를 확인 하시려면 결과보기를 누르세요!") //줄였음
 		.setPositiveButton("결과보기", new DialogInterface.OnClickListener(){
 		    public void onClick(DialogInterface dialog, int whichButton){
