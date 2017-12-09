@@ -1,7 +1,7 @@
-#Fri Feb 24 09:45:56 KST 2017
-base.0=C\:\\works\\studio\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f54c247c84aa1b3721dbfa4ef6f0f71990de2eea
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\works\\studio\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_14edbacf96cece9a1d8a907fd095675fdc29b152\\classes.dex
-base.1=C\:\\works\\studio\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_14edbacf96cece9a1d8a907fd095675fdc29b152
-file.0=C\:\\works\\studio\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f54c247c84aa1b3721dbfa4ef6f0f71990de2eea\\classes.dex
+#Sat Dec 09 20:02:48 KST 2017
+base.0=C\:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7a9c63a4baf91f227f6daf4283de14aed3301480
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_589bca596c95e98328b05b950a0725c129c42a24\\classes.dex
+base.1=C\:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_589bca596c95e98328b05b950a0725c129c42a24
+file.0=C\:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7a9c63a4baf91f227f6daf4283de14aed3301480\\classes.dex

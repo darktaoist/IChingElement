@@ -42,7 +42,8 @@ public class DayFortuneResult extends ShareActivity {
 	  wb.setBackgroundColor(0);
 	   
 	  //wb.getSettings().setJavaScriptEnabled(true);
-	  String url = "file:///android_asset/"+filename;	     
+	  String url = "file:///android_asset/today/"+filename;
+
 	    
 //	    DayFortuneOverNetworkUtil dnutil = new DayFortuneOverNetworkUtil(this, R.layout.day_fortune_result, 1);
 //        String test = "";

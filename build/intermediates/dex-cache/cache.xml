@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\works\studio\IChingElement\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\andro_works\iching\IChingElement\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7b7057829e15ff52b55dd3ac2e59941e95cb2024">
-        <dex dex="C:\works\studio\IChingElement\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f54c247c84aa1b3721dbfa4ef6f0f71990de2eea\classes.dex" />
+        sha1="ebba69c235847169bfb95444af6229360110b009">
+        <dex dex="C:\andro_works\iching\IChingElement\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_589bca596c95e98328b05b950a0725c129c42a24\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\works\studio\IChingElement\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\andro_works\iching\IChingElement\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2693716d974967383d88ed7db8e35d3e1b93a48a">
-        <dex dex="C:\works\studio\IChingElement\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_14edbacf96cece9a1d8a907fd095675fdc29b152\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\andro_works\iching\IChingElement\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7a9c63a4baf91f227f6daf4283de14aed3301480\classes.dex" />
     </item>
 
 </items>

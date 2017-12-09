@@ -1,70 +1,70 @@
 [
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_fortune_main.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\day_fortune_main.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_edit.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_edit.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_main.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_main.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_main.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_main.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_sub_list.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_sub_list.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upper_layer.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\upper_layer.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_iching_layout.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\simple_iching_layout.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_list.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_list.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_start_dialog.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\iching_start_dialog.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_sub_list.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_sub_list.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_fortune_result.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\day_fortune_result.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_main.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_main.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bellow_buttons.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\bellow_buttons.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_view.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_view.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upper_layer.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\upper_layer.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_fortune_main.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\day_fortune_main.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_iching_result.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\simple_iching_result.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bellow_buttons.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\bellow_buttons.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_view.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_view.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chmistry_choice.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\chmistry_choice.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_sub.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_sub.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fortunetellmain.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\fortunetellmain.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chmistry_choice.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\chmistry_choice.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_iching_result.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\simple_iching_result.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_layout.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\help_layout.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_layout.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\help_layout.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_main.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_main.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_fortune_result.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\day_fortune_result.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_edit.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_edit.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_iching_layout.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\simple_iching_layout.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_hist_list.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\iching_hist_list.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chemistry_sub.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\chemistry_sub.xml"
     },
     {
-        "merged": "C:\\works\\studio\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fortunetellmain.xml",
-        "source": "C:\\works\\studio\\IChingElement\\app\\src\\main\\res\\layout\\fortunetellmain.xml"
+        "merged": "C:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iching_start_dialog.xml",
+        "source": "C:\\andro_works\\iching\\IChingElement\\app\\src\\main\\res\\layout\\iching_start_dialog.xml"
     }
 ]
