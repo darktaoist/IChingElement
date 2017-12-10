@@ -1,4 +1,4 @@
-#Sat Dec 09 20:02:48 KST 2017
+#Sun Dec 10 20:45:30 KST 2017
 base.0=C\:\\andro_works\\iching\\IChingElement\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7a9c63a4baf91f227f6daf4283de14aed3301480
 renamed.1=classes2.dex
 renamed.0=classes.dex
