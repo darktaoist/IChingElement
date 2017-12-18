@@ -6,42 +6,51 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1512817458521"
+    timestamp="1512906328915"
     token="-2691851112091944552"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1125" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="0" />
     <task
         name="verifier"
-        duration="15" />
+        duration="0" />
 
     <artifact
-        location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
+        location="C:\andro_works\iching\IChingElement\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1512815297096"
+        timestamp="1512904790873"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\andro_works\iching\IChingElement\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -50,36 +59,19 @@
             location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1512817366983"
+        timestamp="1512906328915"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\andro_works\iching\IChingElement\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1512817458521"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\andro_works\iching\IChingElement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>
