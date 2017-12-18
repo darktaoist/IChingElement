@@ -28,6 +28,9 @@ public class ChemistryMain extends ShareActivity {
 	public void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
 		setContentView(R.layout.chemistry_main);
+		setBtn(R.layout.chemistry_main);
+
+
 
 		maleImg = (ImageButton)findViewById(R.id.maleTti);
 		maleImg.setOnTouchListener(new View.OnTouchListener() {
@@ -316,6 +319,7 @@ public class ChemistryMain extends ShareActivity {
 
 	private void callIntent() {
 		Intent i = new Intent(ChemistryMain.this,ChemistryResult.class);
+		i.addFlags(i.FLAG_ACTIVITY_CLEAR_TOP);
 		i.putExtra("male",sMale);
 		i.putExtra("female",sFemale);
 		startActivityForResult(i,1);
