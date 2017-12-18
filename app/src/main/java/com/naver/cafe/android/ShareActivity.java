@@ -36,6 +36,7 @@ public class ShareActivity extends Activity {
 				} else if (event.getAction() == MotionEvent.ACTION_UP) {
 					btn1.setImageResource(R.drawable.btn_06);
 					Intent intent = new Intent(ShareActivity.this, FortuneTellMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				} 
 				return false;
@@ -48,7 +49,8 @@ public class ShareActivity extends Activity {
 					btn2.setImageResource(R.drawable.btn_01_);
 				} else if (event.getAction() == MotionEvent.ACTION_UP) {
 					btn2.setImageResource(R.drawable.btn_01);
-					Intent intent = new Intent(ShareActivity.this, SimpleFortuneTell3D1.class);
+					Intent intent = new Intent(ShareActivity.this, SimpleFortuneTell.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				}
 				return false;
@@ -62,6 +64,7 @@ public class ShareActivity extends Activity {
 				} else if (event.getAction() == MotionEvent.ACTION_UP) {
 					btn3.setImageResource(R.drawable.btn_03);
 					Intent intent = new Intent(ShareActivity.this, DayFortuneMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				}
 				return false;
@@ -75,6 +78,7 @@ public class ShareActivity extends Activity {
 				} else if (event.getAction() == MotionEvent.ACTION_UP) {
 					btn4.setImageResource(R.drawable.btn_04);
 					Intent intent = new Intent(ShareActivity.this, ChemistryMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				}
 				return false;
@@ -88,6 +92,7 @@ public class ShareActivity extends Activity {
 				} else if (event.getAction() == MotionEvent.ACTION_UP) {
 					btn5.setImageResource(R.drawable.btn_05);
 					Intent intent = new Intent(ShareActivity.this, HelpMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				}
 				return false;

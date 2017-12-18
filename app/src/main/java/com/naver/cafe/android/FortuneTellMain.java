@@ -58,6 +58,9 @@ public class FortuneTellMain extends Activity {
 				} else  {
 					btn1.setImageResource(R.drawable.simple_on);
 					Intent intent = new Intent(FortuneTellMain.this, SimpleFortuneTell.class);
+					//intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+					//intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 //					Intent intent = new Intent(FortuneTellMain.this, SimpleFortuneTell3D1.class);
 	        		startActivity(intent);
 				}
@@ -85,6 +88,7 @@ public class FortuneTellMain extends Activity {
 				} else  {
 					btn3.setImageResource(R.drawable.fortune_on);
 					Intent intent = new Intent(FortuneTellMain.this, DayFortuneMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        		startActivity(intent);
 				}
 				return false;
@@ -110,6 +114,7 @@ public class FortuneTellMain extends Activity {
 				} else  {
 					btn5.setImageResource(R.drawable.help_on);
 					Intent intent = new Intent(FortuneTellMain.this, HelpMain.class);
+					intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 
 	        		startActivity(intent);
 				}
@@ -158,6 +163,7 @@ public class FortuneTellMain extends Activity {
     
 	private void makeChoice() {
 		Intent intent = new Intent(FortuneTellMain.this, ChemistryMain.class);
+		intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 		
 //		new AlertDialog.Builder(FortuneTellMain.this).setMessage(
@@ -220,5 +226,40 @@ public class FortuneTellMain extends Activity {
     	adb.setMessage(msg2);
     	adb.show();	
     	return ;
-	}	
+	}
+
+	@Override
+	public void onBackPressed() {
+		showJumDialog(1);
+
+	}
+
+	private void showJumDialog(int num){
+		new AlertDialog.Builder(FortuneTellMain.this)
+				.setTitle("")
+				.setMessage("운세주역점을 종료 하시겠습니까?") //줄였음
+				.setPositiveButton("예", new DialogInterface.OnClickListener(){
+					public void onClick(DialogInterface dialog, int whichButton){
+						//finish();
+
+						try
+						{
+							finalize();
+							finish();
+						}
+						catch(Exception error)
+						{
+							error.printStackTrace();
+						} catch (Throwable throwable) {
+							throwable.printStackTrace();
+						}
+					}
+				})
+				.setNegativeButton("아니요", new DialogInterface.OnClickListener(){
+					public void onClick(DialogInterface dialog, int whichButton){
+
+					}
+				})
+				.show();
+	}
 }

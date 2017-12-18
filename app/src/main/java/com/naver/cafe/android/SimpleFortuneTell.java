@@ -107,9 +107,12 @@ public class SimpleFortuneTell extends ShareActivity implements SensorListener {
 		.setMessage("간단결과를 확인 하시려면 결과보기를 누르세요!") //줄였음
 		.setPositiveButton("결과보기", new DialogInterface.OnClickListener(){
 		    public void onClick(DialogInterface dialog, int whichButton){
-		    	Intent i = new Intent(SimpleFortuneTell.this,SimpleFortuneTellResult.class);
-		    	i.putExtra("num",resultNum+"");
-		    	startActivityForResult(i,1);
+		    	Intent intent = new Intent(SimpleFortuneTell.this,SimpleFortuneTellResult.class);
+				//intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+				//intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
+		    	intent.putExtra("num",resultNum+"");
+		    	startActivityForResult(intent,1);
 		    }
 		})
 		.setNegativeButton("취    소", new DialogInterface.OnClickListener(){
@@ -235,6 +238,10 @@ public class SimpleFortuneTell extends ShareActivity implements SensorListener {
                 	drawText(ititle);
                 	System.out.println("total num of hyo >> >>>>>>>>>>>> " + resultNum);
                 	showJumDialog(resultNum) ;
+//					Intent intent = new Intent();
+//					intent.putExtra("resultNum", resultNum);
+//					setResult(0,intent);
+//					finish();
                 }else {
                     try{
                     	Thread.sleep(500);
